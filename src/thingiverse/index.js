@@ -98,7 +98,7 @@ class Thingiverse extends React.Component {
 
 const ThingiverseSearchBox = (props) => {
   const { item } = props;
-  console.log({ item });
+  //console.log({ item });
   return (
     <ThingsBox key={item.id}>
       <HeaderBox>
