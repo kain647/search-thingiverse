@@ -1,0 +1,4 @@
+GET https://api.thingiverse.com/search/${search}?access_token=ae6c52eefd0966579dfdc38f92de95e7
+Accept: application/json
+
+###
