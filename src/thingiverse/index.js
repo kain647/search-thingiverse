@@ -103,7 +103,9 @@ const ThingiverseSearchBox = (props) => {
     <ThingsBox key={item.id}>
       <HeaderBox>
         <Avatar>
-          <img src={item.thumbnail} />
+          <a href={item.creator.public_url} target={"_blank"}>
+            <img src={item.thumbnail} />
+          </a>
         </Avatar>
         <Name>{item.name}</Name>
       </HeaderBox>
